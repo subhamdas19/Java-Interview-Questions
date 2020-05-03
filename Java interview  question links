@@ -9,3 +9,10 @@ https://www.edureka.co/blog/interview-questions/java-interview-questions/
 https://www.geeksforgeeks.org/g-fact-24-finalfinally-and-finalize-in-java/
 
 https://www.geeksforgeeks.org/difference-between-throw-and-throws-in-java/
+
+In Java, the main point here is that the JVM depends on the operating system – so if you are running Mac OS X you will have a different JVM than if you are running Windows or some other operating system. This fact can be verified by trying to download the JVM for your particular machine – when trying to download it, you will be given a list of JVMs corresponding to different operating systems, and you will obviously pick whichever JVM is targeted for the operating system that you are running. So we can conclude that JVM is platform-dependent and it is the reason why Java is able to become “Platform Independent”.
+Important Points:
+
+In the case of Java, it is the magic of Bytecode that makes it platform independent.
+This adds to an important feature in the JAVA language termed as portability. Every system has its own JVM which gets installed automatically when the jdk software is installed. For every operating system separate JVM is available which is capable to read the .class file or byte code.
+An important point to be noted is that while JAVA is platform-independent language, the JVM is platform-dependent. Different JVM is designed for different OS and byte code is able to run on different OS.
